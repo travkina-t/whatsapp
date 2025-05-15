@@ -15,6 +15,7 @@ body {
     -webkit-border-radius: 100%;
     border-radius: 100%;
 	border:1px solid red;
+	-webkit-appearance: none;
  
 }
 
@@ -30,7 +31,7 @@ border:1px solid rgb(0, 55, 255);
     -webkit-border-radius: 100%;
     border-radius: 100%;
     box-shadow: 0 0 0 10px #57c82f30;
-
+-webkit-appearance: none;
     /* animation: pulse 2s infinite;
     -webkit-animation: pulse 2s infinite; */
 }
