@@ -16,7 +16,7 @@ body{
 	-webkit-border-radius: 100%;
 	border-radius: 100%;
 	animation: pulse 2s infinite;
-	-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+	/* -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); */
 	/* 	box-shadow: 0 10px 17px rgb(0 0 0 / 7%); */
 }
 
