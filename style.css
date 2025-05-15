@@ -1,76 +1,70 @@
-body{
-	background-color: black;
+body {
+    background-color: black;
 }
 
 .phone-icon {
-	overflow: hidden;
-	position: fixed;
-	bottom: 20px;
-	left: 80px;
-	cursor: pointer;
-	width: 91px;
-	transition: all ease .4s;
-	z-index: 999;
-	background-color: #57c82f7d;
-	padding: 5px;
-	-webkit-border-radius: 100%;
-	border-radius: 100%;
-	animation: pulse 2s infinite;
-	/* -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); */
-	/* 	box-shadow: 0 10px 17px rgb(0 0 0 / 7%); */
+    overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+    left: 80px;
+    cursor: pointer;
+    width: 91px;
+    /* transition: all ease 0.4s; */
+    z-index: 999;
+    background-color: #57c82f7d;
+    padding: 5px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    animation: pulse 2s infinite;
+    -webkit-animation: pulse 2s infinite;
 }
 
-.phone-icon img {
-width: 100%;
-
+.phone-icon a img {
+    width: 100%;
 }
 .phone-icon:hover {
-	animation: none;
+    animation: none;
 }
-/* @-webkit-keyframes pulse {
-	0% {
-		-webkit-box-shadow: 0 0 0 0 #57c82f30;
-	}
-	70% {
-		-webkit-box-shadow: 0 0 0 10px #57c82f30;
-	}
-	100% {
-		-webkit-box-shadow: 0 0 0 0 #57c82f30;
-	}
-} */
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #57c82f30;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px #57c82f30;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 #57c82f30;
+    }
+}
 @keyframes pulse {
-	0% {
-		-moz-box-shadow: 0 0 0 0 #57c82f30;
-		-webkit-box-shadow: 0 0 0 0 #57c82f30;
-		box-shadow: 0 0 0 0 #57c82f30;
-
-	}
-	70% {
-		-moz-box-shadow: 0 0 0 10px #57c82f30;
-		-webkit-box-shadow: 0 0 0 10px #57c82f30;
-		box-shadow: 0 0 0 10px #57c82f30;
-	}
-	100% {
-		-moz-box-shadow: 0 0 0 0 #57c82f30;
-		-webkit-box-shadow: 0 0 0 0 #57c82f30;
-		box-shadow: 0 0 0 0 #57c82f30;
-	}
+    0% {
+        -moz-box-shadow: 0 0 0 0 #57c82f30;
+        box-shadow: 0 0 0 0 #57c82f30;
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px #57c82f30;
+        box-shadow: 0 0 0 10px #57c82f30;
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 #57c82f30;
+        box-shadow: 0 0 0 0 #57c82f30;
+    }
 }
 
 /* .phone-icon--mob {
 	display: block;
 } */
 
-@media(max-width: 992px) {
-/* 	.phone-icon--pc {
+@media (max-width: 992px) {
+    /* 	.phone-icon--pc {
 		display: none;
 	} */
-	.phone-icon--mob {
-		display: block;
-		left: auto;
-		right: 24px;
-		width: 91px;
-	}
+    .phone-icon--mob {
+        display: block;
+        left: auto;
+        right: 24px;
+        width: 91px;
+    }
 }
 /* @media(max-width: 992px) {
 	.phone-icon--mob {
@@ -78,8 +72,8 @@ width: 100%;
 	}
 } */
 
-@media(max-width: 576px) {
-	.phone-icon--mob {
-		bottom: 33px;
-	}
+@media (max-width: 576px) {
+    .phone-icon--mob {
+        bottom: 33px;
+    }
 }
