@@ -2,11 +2,25 @@ body {
     background-color: black;
 }
 
-.phone-icon {
-    overflow: hidden;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.phone_container {
     position: fixed;
     bottom: 20px;
     left: 80px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+	border:1px solid red;
+ 
+}
+
+.phone-icon {
+    overflow: hidden;
+border:1px solid rgb(0, 55, 255);
     cursor: pointer;
     width: 91px;
     /* transition: all ease 0.4s; */
@@ -15,11 +29,8 @@ body {
     padding: 5px;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-	  box-shadow: 0 0 0 10px #57c82f30;
-	 -webkit-backface-visibility: hidden;
- -moz-backface-visibility: hidden;
- -webkit-transform: translate3d(0, 0, 0);
- -moz-transform: translate3d(0, 0, 0);
+    box-shadow: 0 0 0 10px #57c82f30;
+
     /* animation: pulse 2s infinite;
     -webkit-animation: pulse 2s infinite; */
 }
