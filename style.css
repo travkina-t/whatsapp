@@ -15,8 +15,9 @@ body {
     padding: 5px;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    animation: pulse 2s infinite;
-    -webkit-animation: pulse 2s infinite;
+	  box-shadow: 0 0 0 10px #57c82f30;
+    /* animation: pulse 2s infinite;
+    -webkit-animation: pulse 2s infinite; */
 }
 
 .phone-icon a img {
