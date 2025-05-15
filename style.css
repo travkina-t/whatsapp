@@ -27,7 +27,7 @@ width: 100%;
 .phone-icon:hover {
 	animation: none;
 }
-@-webkit-keyframes pulse {
+/* @-webkit-keyframes pulse {
 	0% {
 		-webkit-box-shadow: 0 0 0 0 #57c82f30;
 	}
@@ -37,18 +37,22 @@ width: 100%;
 	100% {
 		-webkit-box-shadow: 0 0 0 0 #57c82f30;
 	}
-}
+} */
 @keyframes pulse {
 	0% {
 		-moz-box-shadow: 0 0 0 0 #57c82f30;
+		-webkit-box-shadow: 0 0 0 0 #57c82f30;
 		box-shadow: 0 0 0 0 #57c82f30;
+
 	}
 	70% {
 		-moz-box-shadow: 0 0 0 10px #57c82f30;
+		-webkit-box-shadow: 0 0 0 10px #57c82f30;
 		box-shadow: 0 0 0 10px #57c82f30;
 	}
 	100% {
 		-moz-box-shadow: 0 0 0 0 #57c82f30;
+		-webkit-box-shadow: 0 0 0 0 #57c82f30;
 		box-shadow: 0 0 0 0 #57c82f30;
 	}
 }
