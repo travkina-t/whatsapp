@@ -26,7 +26,7 @@ body {
 	height: 91px;
 	margin: 30px;
     /* transition: all ease 0.4s; */
-    /* z-index: 999; */
+    z-index: 999;
     background-color: #57c82f7d;
     padding: 5px;
     /* -webkit-border-radius: 100%; */
@@ -84,11 +84,11 @@ body {
         width: 91px;
     }
 }
-/* @media(max-width: 992px) {
+@media(max-width: 992px) {
 	.phone-icon--mob {
 		right: 24px;
 	}
-} */
+}
 
 @media (max-width: 576px) {
     .phone-icon--mob {
