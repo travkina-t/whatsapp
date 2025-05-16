@@ -23,7 +23,7 @@ body {
     z-index: 999;
     background-color: #57c82f7d;
     padding: 5px;
-    /* -webkit-border-radius: 100%; */
+    -webkit-border-radius: 100%;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #57c82f30;
     /* -webkit-appearance: none; */
