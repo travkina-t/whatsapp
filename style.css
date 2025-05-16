@@ -35,7 +35,7 @@ body {
     -webkit-animation: pulse 2s infinite; */
 }
 
-.phone-icon a img {
+.phone-icon a img, .test img {
     width: 100%;
 }
 .phone-icon:hover {
@@ -96,8 +96,8 @@ body {
 
 .test {
 	margin: 30px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: pink;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #57c82f30;
