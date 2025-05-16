@@ -28,7 +28,7 @@ body {
     /* box-shadow: 0 0 0 10px #57c82f30; */
     /* -webkit-appearance: none; */
     animation: pulse 2s infinite;
-    /*-webkit-animation: pulse 2s infinite; */
+    -webkit-animation: pulse 2s infinite; 
 }
 
 .phone-icon a img {
