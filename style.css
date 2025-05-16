@@ -12,7 +12,7 @@ body {
 .phone-icon {
     /* overflow: hidden; */
     /* border: 1px solid rgb(0, 55, 255); */
-    /* cursor: pointer; */
+    cursor: pointer;
 	  position: fixed;
     bottom: 20px;
     left: 80px;
