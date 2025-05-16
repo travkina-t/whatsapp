@@ -9,28 +9,30 @@ body {
 }
 
 .phone_container {
-    position: fixed;
+    /* position: fixed;
     bottom: 20px;
-    left: 80px;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    border: 1px solid red;
-    -webkit-appearance: none;
+    left: 80px; */
+    /* -webkit-border-radius: 100%; */
+    border-radius: 50%;
+    /* border: 1px solid red;
+    -webkit-appearance: none; */
 }
 
 .phone-icon {
-    overflow: hidden;
-    border: 1px solid rgb(0, 55, 255);
-    cursor: pointer;
+    /* overflow: hidden; */
+    /* border: 1px solid rgb(0, 55, 255); */
+    /* cursor: pointer; */
     width: 91px;
+	height: 91px;
+	margin: 30px;
     /* transition: all ease 0.4s; */
-    z-index: 999;
+    /* z-index: 999; */
     background-color: #57c82f7d;
     padding: 5px;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
+    /* -webkit-border-radius: 100%; */
+    border-radius: 50%;
     box-shadow: 0 0 0 10px #57c82f30;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     /* animation: pulse 2s infinite;
     -webkit-animation: pulse 2s infinite; */
 }
@@ -101,7 +103,7 @@ body {
     background-color: pink;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #57c82f30;
-	position: fixed;
+	/* position: fixed; */
 	padding: 5px;
 	display: block;
 }
