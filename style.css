@@ -17,8 +17,8 @@ body {
     bottom: 20px;
     left: 80px;
     width: 91px;
-	height: 91px;
-	margin: 30px;
+	/* height: 91px; */
+	/* margin: 30px; */
     transition: all ease 0.4s;
     z-index: 999;
     background-color: #57c82f7d;
