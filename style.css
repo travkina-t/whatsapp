@@ -24,7 +24,7 @@ body {
     background-color: #57c82f7d;
     padding: 5px;
     -webkit-border-radius: 100%;
-    border-radius: 50%;
+    border-radius: 100%;
     /* box-shadow: 0 0 0 10px #57c82f30; */
     /* -webkit-appearance: none; */
     animation: pulse 2s infinite;
@@ -78,11 +78,11 @@ body {
         width: 91px;
     }
 }
-@media(max-width: 992px) {
+/* @media(max-width: 992px) {
 	.phone-icon--mob {
 		right: 24px;
 	}
-}
+} */
 
 @media (max-width: 576px) {
     .phone-icon--mob {
